@@ -1,0 +1,45 @@
+.menu {
+    /* display: inline-block; */
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+    /* gap: 30px; */
+    /* flex-wrap: wrap; */
+    padding-top: 40px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 30px;
+}
+
+.menu-on {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.balance {
+    /* display: inline-block; */
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    /* padding-top: 30px; */
+}
+
+.balance-item {
+    display: inline-block;
+    margin: 30px;
+}
